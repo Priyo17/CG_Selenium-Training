@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [DemoSampleSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="DemoSampleTest(failed)">
+    <classes>
+      <class name="Practice.HardAssertLogin">
+        <methods>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- Practice.HardAssertLogin -->
+      <class name="Practice.SoftAssertLogin">
+        <methods>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- Practice.SoftAssertLogin -->
+      <class name="Practice.DemoHardAssert">
+        <methods>
+          <include name="testMethod"/>
+        </methods>
+      </class> <!-- Practice.DemoHardAssert -->
+    </classes>
+  </test> <!-- DemoSampleTest(failed) -->
+</suite> <!-- Failed suite [DemoSampleSuite] -->

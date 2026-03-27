@@ -1,0 +1,9 @@
+{
+
+     "login":{
+     "un":"name:username",
+     "pass" :"name:password",
+     "loginbutton" : "cssSelector:[type='submit']"
+     }
+    
+}
